@@ -1,0 +1,136 @@
+*{
+    margin: 2px;
+    padding: 0;
+}
+.profile img{
+    display: block;
+    margin:auto;
+    max-width: 500px;
+    height: 1bh;
+    border: 9px double white;
+    border-radius: 50%;
+
+}
+.profile{
+    background-color: #2F6732;
+    color: brown;
+    padding-top: 10px;
+}
+h2{
+    margin: 20px;
+    text-align: center;
+    font-size: 30px;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 1px;
+    color: brown;
+}
+h1{font-size: 80px;
+    text-align: center;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 1px;
+}
+
+img{
+    display: block;
+    margin: auto;
+    border-radius: 15px;
+    width: 60%;
+    height: auto;
+}
+p{
+    text-align: center;
+}
+ul{
+    display: table;
+    margin: 20px auto;
+}
+ul li{
+    padding: 3px;
+    
+}
+.bg{
+    background-color: #eeeeee;
+}
+.friends img{
+    width: 80%;
+    min-height:300px;
+    margin-bottom: 20px;
+}
+.friends{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    
+}
+
+.friend img{
+    height: 300px;
+    width: 200px;
+}
+
+.friends p{font-size: 25px;}
+footer{
+    background-color: #2F6732;
+}
+footer ul li{
+    list-style: none;
+}
+footer ul li a{
+    text-decoration: none;
+    color:brown;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 1px;
+}
+.friends p{
+    color:brown;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 1px;
+}
+.friends a{
+    color:brown;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 1.5px;
+    text-decoration: none;
+}
+
+@media(max-width:1155px){
+    .friends{
+        display: block;
+    }
+}
+@media(max-width:850px){
+    h1{
+        font-size: 78px;
+    }
+}
+@media(max-width:820px){
+    h1{
+        font-size: 75px;
+    }
+}
+@media(max-width:620px){
+    h1{
+        font-size: 60px;
+    }
+}
+@media(max-width:535px){
+    h1{
+        font-size: 55px;
+    }
+    
+}
+@media(max-width:465px){
+    h1{
+        font-size: 50px;
+    }
+}
+@media(max-width:390px){
+    h1{
+        font-size: 50px;
+    }
+}
+@media(max-width:375px){
+    h1{
+        font-size: 45px;
+    }
+}
