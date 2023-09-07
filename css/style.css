@@ -12,7 +12,8 @@
 
 }
 .profile{
-    background-color: #2F6732;
+    background: rgb(163,215,167);
+    background: radial-gradient(circle, rgba(163,215,167,1) 21%, rgba(47,103,50,1) 79%);
     color: brown;
     padding-top: 10px;
 }
@@ -37,11 +38,13 @@ img{
     width: 60%;
     height: auto;
 }
-{
-    text-align: center;
+p{
+    text-align: left;
+    padding-left:14%
 }
 ul{
-    display: table;
+    text-align: left;
+    padding-left:14%;
     margin: 20px auto;
 }
 ul li{
