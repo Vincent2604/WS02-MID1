@@ -43,7 +43,7 @@ img{
     padding-left:14%
 }
 p{text-align:center;}
-ul{
+.content ul{
     text-align: left;
     padding-left:14%;
     margin: 20px auto;
