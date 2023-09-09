@@ -78,13 +78,13 @@ footer{
 }
 footer ul li{
     list-style: none;
-    text-align: center;
 }
 footer ul li a{
     text-decoration: none;
     color:brown;
     -webkit-text-stroke-color: black;
     -webkit-text-stroke-width: 1px;
+    text-align: center;
 }
 .friends p{
     color:brown;
