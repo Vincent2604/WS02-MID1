@@ -95,7 +95,7 @@ footer ul li a{
 .friends a{
     color:brown;
     -webkit-text-stroke-color: black;
-    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-width: 1px;
     text-decoration: none;
 }
 
